@@ -8,22 +8,20 @@ Este repositorio tiene el objetivo de agregar las soluciones a los diferentes re
 ![image](https://github.com/user-attachments/assets/624ba95d-5ba6-4069-b742-8b8493b128f7)
 
 ¡Aprende React, Redux, Node.js, MongoDB, GraphQL y TypeScript de una sola vez! Este curso te presentará el desarrollo web moderno basado en JavaScript. El enfoque principal es crear aplicaciones de una sola página con ReactJS que usan REST API creadas con Node.js.
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 0 - Fundamentos de las aplicaciones web](https://fullstackopen.com/es/part0)
+### [Parte 0 - Fundamentos de las aplicaciones web](https://fullstackopen.com/es/part0)
 
 ---
 
 a. Información general
 
 b. Fundamentos de las aplicaciones web
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 1 - Introducción a React](https://fullstackopen.com/es/part1)
+### [Parte 1 - Introducción a React](https://fullstackopen.com/es/part1)
 
 ---
 
@@ -34,11 +32,10 @@ b. JavaScript
 c. Estado del componente, controladores de eventos
 
 d. Un estado más complejo, depurando aplicaciones de React
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 2 - Comunicación con el servidor](https://fullstackopen.com/es/part2)
+### [Parte 2 - Comunicación con el servidor](https://fullstackopen.com/es/part2)
 
 ---
 
@@ -51,11 +48,10 @@ c. Obteniendo datos del servidor
 d. Alterando datos en el servidor
 
 e. Agregar estilos a la aplicación React
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 3 - Programando un servidor con NodeJS y Express](https://fullstackopen.com/es/part3)
+### [Parte 3 - Programando un servidor con NodeJS y Express](https://fullstackopen.com/es/part3)
 
 ---
 
@@ -66,11 +62,10 @@ b. Implementación de la aplicación de Internet
 c. Guardando dayos en MongoDB
 
 d. Validación y ESLint
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 4 - Pruebas de servidores Express, administración de usuarios](https://fullstackopen.com/es/part4)
+### [Parte 4 - Pruebas de servidores Express, administración de usuarios](https://fullstackopen.com/es/part4)
 
 ---
 
@@ -81,11 +76,10 @@ b. Probando el backend
 c. Administración de usuarios
 
 d. Autenticación de token
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 5 - Probando la aplicación React](https://fullstackopen.com/es/part5)
+### [Parte 5 - Probando la aplicación React](https://fullstackopen.com/es/part5)
 
 ---
 
@@ -96,11 +90,10 @@ b. props.children and proptypes
 c. Probando aplicaciones React
 
 d. Pruebas de extremo a extremo
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 6 - Gestión avanzada del estado](https://fullstackopen.com/es/part6)
+### [Parte 6 - Gestión avanzada del estado](https://fullstackopen.com/es/part6)
 
 ---
 
@@ -111,11 +104,10 @@ b. MMuchos reducers
 c. Comunicarse con el servidor en una aplicación Redux d. React Query, useReducer y el contexto
 
 e. connect (la parte antigua)
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 7 - React router, custom hooks, aplicando estilos con CSS y webpack](https://fullstackopen.com/es/part7)
+### [Parte 7 - React router, custom hooks, aplicando estilos con CSS y webpack](https://fullstackopen.com/es/part7)
 
 ---
 
@@ -130,11 +122,10 @@ d. Webpack
 e. Componentes de clases, avrios
 
 f. Ejercicios: ampliar la lista de blogs
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 8 - GraphQL](https://fullstackopen.com/es/part8)
+### [Parte 8 - GraphQL](https://fullstackopen.com/es/part8)
 
 ---
 
@@ -147,11 +138,10 @@ c. Administración de bases de datos y usuarios
 d. Iniciar sesión y actualizar la caché
 
 e. Fragmentos y suscripciones
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 9 - TypeScript](https://fullstackopen.com/es/part9)
+### [Parte 9 - TypeScript](https://fullstackopen.com/es/part9)
 
 ---
 
@@ -164,11 +154,10 @@ c. Escribiendo una aplicación express
 d. React con tipos
 
 e. Grande finale: Patientor
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 10 - React Native](https://fullstackopen.com/es/part10)
+### [Parte 10 - React Native](https://fullstackopen.com/es/part10)
 
 ---
 
@@ -179,11 +168,10 @@ b. Conceptos básicos de React Native
 c. Comunicandose con el servidor
 
 d. Probar y ampliar nuestra aplicación
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 11 - CI/CD](https://fullstackopen.com/es/part11)
+### [Parte 11 - CI/CD](https://fullstackopen.com/es/part11)
 
 ---
 
@@ -196,11 +184,10 @@ c. Despliegue
 d. Manteniéndose verde
 
 e. Expandiéndose aún más
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 12 - Contenedores](https://fullstackopen.com/es/part12)
+### [Parte 12 - Contenedores](https://fullstackopen.com/es/part12)
 
 ---
 
@@ -209,11 +196,10 @@ a. Introducción a los Contenedores
 b. Construir y configurar entornos
 
 c. Conceptos básicos de orquestación 
+<br/>
+<br/>
 
-<br>
-<br>
-
-[Parte 13 - Utilizand bases de datos relacionales](https://fullstackopen.com/es/part13)
+### [Parte 13 - Utilizand bases de datos relacionales](https://fullstackopen.com/es/part13)
 
 ---
 
