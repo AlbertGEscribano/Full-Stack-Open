@@ -99,11 +99,11 @@ d. Pruebas de extremo a extremo
 
 a. Flux-architecture and Redux
 
-b. MMuchos reducers
+b. Muchos reducers
 
-c. Comunicarse con el servidor en una aplicación Redux d. React Query, useReducer y el contexto
+c. Comunicarse con el servidor en una aplicación Redux 
 
-e. connect (la parte antigua)
+d. React Query, useReducer y el contexto
 <br/>
 <br/>
 
