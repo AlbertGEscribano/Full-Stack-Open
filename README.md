@@ -1,4 +1,4 @@
-# Full-Stack-Open-
+# Full-Stack-Open
 Full Stack Open University Helsinki &amp; Houston Inc
 
 Este repositorio tiene el objetivo de agregar las soluciones a los diferentes retos impuestos por el Bootcamo Full Stack Open 2025 de la Universidad de Helsinki. 
