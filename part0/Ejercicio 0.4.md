@@ -3,14 +3,14 @@ Ejercicio 0.4 - Nuevo Diagrama de Nota
 Crea un diagrama similar que describa la situación en la que el usuario crea una nueva nota en la página https://studies.cs.helsinki.fi/exampleapp/notes escribiendo algo en el campo de texto y haciendo clic en el botón Save.
 
 
-sequenceDiagram
+    sequenceDiagram
     participant Client
     participant Server
-
+    
     note over Client: Client add new note: "Hi, I'm sending new one"
     Client->>Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 
-    note over Server: Server saves a new note and responds with an HTTP 302 status code. <br/>This URL redirection request redirects the browser to the URL <br/> https://studies.cs.helsinki.fi/exampleapp/notes, which is found in <br/>the header of the HTTP request.
+    note over Server: Server saves a new note and responds with an HTTP 302 status code. <br/>This URL redirection request redirects the browser to the URL <br/>                    https://studies.cs.helsinki.fi/exampleapp/notes, which is found in <br/>the header of the HTTP request.
 
     Server-->>Client: Redirection to https://studies.cs.helsinki.fi/exampleapp/notes
     
