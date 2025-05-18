@@ -30,4 +30,4 @@ Crea un diagrama similar que describa la situación en la que el usuario crea un
 
         note over Client: Browser executes the event handler that renders notes to display
 
-(C:\Users\Albert GE\Desktop\Full-Stack-Open\new-note.png)
+!(https://github.com/AlbertGEscribano/Full-Stack-Open/blob/main/part0/new-note.png)
