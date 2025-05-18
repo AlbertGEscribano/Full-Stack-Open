@@ -16,4 +16,4 @@ Crea un diagrama que represente la situación en la que el usuario crea una nuev
 
         note over Client: The page does not reload, and the user stays on the same view. <br/> This behavior is typical in a SPA (Single Page Application).
 
-![](https://github.com/AlbertGEscribano/Full-Stack-Open/blob/720d147e426c5807fbd658c8a7c815dae9086b47/part0/Ejercicio%200.6%20-%20SPA%20New%20Note.md)
+![](https://github.com/AlbertGEscribano/Full-Stack-Open/blob/6bad8d0c5f53d15878bed32a7d3e7ee7447f1153/part0/assets/new%20note%20SPA.png)
