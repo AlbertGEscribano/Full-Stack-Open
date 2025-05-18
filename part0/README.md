@@ -6,3 +6,5 @@ En esta parte, nos familiarizaremos con los aspectos prácticos de realizar el c
 a. [Información general](https://fullstackopen.com/es/part0/informacion_general)
 
 b. [Fundamentos de las aplicaciones web](https://fullstackopen.com/es/part0/fundamentos_de_las_aplicaciones_web)
+
+![alt text](part-0.svg)
