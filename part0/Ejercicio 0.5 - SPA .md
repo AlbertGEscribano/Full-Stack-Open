@@ -20,4 +20,4 @@ Crea un diagrama que describa la situación en la que el usuario accede a la ver
 
         note over Client: Browser executes the event handler <br/> that renders notes to display
 
-![](part0\SPA.png)
+![](part0\assets\SPA.png)
