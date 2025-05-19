@@ -232,97 +232,97 @@ Código:
 
 Sin embargo, no pases diferentes objetos como props separados del componente *App* a los componentes *Content* y *Total*. En su lugar, pásalos directamente como un array:
 
-const App = () => {
-  // definiciones de const
+    const App = () => {
+    // definiciones de const
 
-  return (
-    <div>
-      <Header course={course} />
-      <Content parts={parts} />
-      <Total parts={parts} />
-    </div>
-  )
-}
+    return (
+        <div>
+        <Header course={course} />
+        <Content parts={parts} />
+        <Total parts={parts} />
+        </div>
+    )
+    }
 
 Ejercicio resuelto: 
 
-const App = () => {
-  const course = 'Half Stack application development'
-  const parts = [
-    {
-      name: 'Fundamentals of React',
-      exercises: 10
-    },
-    {
-      name: 'Using props to pass data',
-      exercises: 7
-    },
-    {
-      name: 'State of a component',
-      exercises: 14
+    const App = () => {
+    const course = 'Half Stack application development'
+    const parts = [
+        {
+        name: 'Fundamentals of React',
+        exercises: 10
+        },
+        {
+        name: 'Using props to pass data',
+        exercises: 7
+        },
+        {
+        name: 'State of a component',
+        exercises: 14
+        }
+    ]
+    
+    const Header = ({ course }) => {
+        return <h1>{course}</h1>
     }
-  ]
-  
-  const Header = ({ course }) => {
-    return <h1>{course}</h1>
-  }
 
-  const Part = ({ part }) => {
-    return <p>{part.name} {part.exercises}</p>
-  }
+    const Part = ({ part }) => {
+        return <p>{part.name} {part.exercises}</p>
+    }
 
-  const Content = ({ parts }) => {
+    const Content = ({ parts }) => {
+        return (
+        <>
+            <Part part={parts[0]} />
+            <Part part={parts[1]} />
+            <Part part={parts[2]} />
+        </>
+        )
+    }
+
+    const Total = ({ parts }) => {
+        const totalExercises = parts[0].exercises + parts[1].exercises + parts[2].exercises
+        return <p>Number of exercises {totalExercises}</p>
+    }
+    
     return (
-      <>
-        <Part part={parts[0]} />
-        <Part part={parts[1]} />
-        <Part part={parts[2]} />
-      </>
+        <div>
+        <Header course={course} />
+        <Content parts={parts} />
+        <Total parts={parts} />
+        </div>
     )
-  }
+    }
 
-  const Total = ({ parts }) => {
-    const totalExercises = parts[0].exercises + parts[1].exercises + parts[2].exercises
-    return <p>Number of exercises {totalExercises}</p>
-  }
-  
-  return (
-    <div>
-      <Header course={course} />
-      <Content parts={parts} />
-      <Total parts={parts} />
-    </div>
-  )
-}
-
-export default App
+    export default App
 
 ### **1.5: Información del Curso paso 5**
 
 Llevemos los cambios un paso más allá. Cambia el curso y sus partes a un solo objeto JavaScript. Arregla todo lo que se rompa.
 
-const App = () => {
-  const course = {
-    name: 'Half Stack application development',
-    parts: [
-      {
-        name: 'Fundamentals of React',
-        exercises: 10
-      },
-      {
-        name: 'Using props to pass data',
-        exercises: 7
-      },
-      {
-        name: 'State of a component',
-        exercises: 14
-      }
-    ]
-  }
+    const App = () => {
+    const course = {
+        name: 'Half Stack application development',
+        parts: [
+        {
+            name: 'Fundamentals of React',
+            exercises: 10
+        },
+        {
+            name: 'Using props to pass data',
+            exercises: 7
+        },
+        {
+            name: 'State of a component',
+            exercises: 14
+        }
+        ]
+    }
 
-  return (
-    <div>
-      ...
-    </div>
-  )
-}
+    return (
+        <div>
+        ...
+        </div>
+    )
+    }
