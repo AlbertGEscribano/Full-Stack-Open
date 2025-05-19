@@ -1,7 +1,7 @@
 # Full-Stack-Open
 Full Stack Open University Helsinki &amp; Houston Inc
 
-Este repositorio tiene el objetivo de agregar las soluciones a los diferentes retos impuestos por el Bootcamo Full Stack Open 2025 de la Universidad de Helsinki. 
+Este repositorio tiene el objetivo de agregar las soluciones a los diferentes retos impuestos por el Bootcamp Full Stack Open 2025 de la Universidad de Helsinki. 
 
 ## Inmersión Profunda en el Desarrollo Web Moderno.
 
@@ -119,7 +119,7 @@ c. Más sobre los estilos
 
 d. Webpack
 
-e. Componentes de clases, avrios
+e. Componentes de clases, misceláneos
 
 f. Ejercicios: ampliar la lista de blogs
 <br/>

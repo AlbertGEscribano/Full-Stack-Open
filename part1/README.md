@@ -12,3 +12,4 @@ c.[Estado del componente, controladores de eventos](https://fullstackopen.com/es
 d.[Un estado más complejo, depurando aplicaciones React](https://fullstackopen.com/es/part1/un_estado_mas_complejo_depurando_aplicaciones_react)
 
 ![alt text](part-1.svg)
+
