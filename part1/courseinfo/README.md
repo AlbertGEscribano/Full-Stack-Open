@@ -1,3 +1,4 @@
+### **Explicaciçon del ejercicio**
 ### **1.1: Información del Curso, paso 1**
 
 Desafortunadamente, toda la aplicación está en el mismo componente. Refactoriza el código para que conste de tres componentes nuevos: *Header*, *Content* y *Total*. Todos los datos aún residen en el componente *App*, que pasa los datos necesarios a cada componente mediante *props*. *Header* se encarga de mostrar el nombre del curso, *Content* muestra las partes y su número de ejercicios y *Total* muestra el número total de ejercicios.
