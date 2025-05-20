@@ -179,8 +179,8 @@ Ejercicio resuelto:
         return (
         <>
             <Part name={part1.name} exercises={part1.exercises} />
-                    <Part name={part2.name} exercises={part2.exercises} />
-                    <Part name={part3.name} exercises={part3.exercises} />
+            <Part name={part2.name} exercises={part2.exercises} />
+            <Part name={part3.name} exercises={part3.exercises} />
         </>
         )
     }
