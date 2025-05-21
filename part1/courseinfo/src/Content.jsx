@@ -1,13 +1,11 @@
 import Part from "./Part"
 
-const Content = ({ parts }) => {
-    return (
-        <>
-            <Part part={parts[0]} />
-            <Part part={parts[1]} />
-            <Part part={parts[2]} />
-        </>
-    )
-} 
+const Content = ({ parts }) => (
+    <>
+        {parts.map((part, index) => (
+            <Part key={index} part={part} />
+        ))}
+    </>
+)
 
 export default Content
