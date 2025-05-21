@@ -8,6 +8,6 @@ const Content = ({ parts }) => {
             <Part part={parts[2]} />
         </>
     )
-}
+} 
 
 export default Content
